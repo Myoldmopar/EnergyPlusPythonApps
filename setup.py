@@ -6,7 +6,7 @@ readme_contents = readme_file.read_text()
 
 setup(
     name="energyplus_python_apps",
-    version="22.2.0-Beta",
+    version="22.2.0-Beta2",
     packages=['energyplus_python_apps'],
     description="Meta-package collecting all official EnergyPlus Python utilities",
     long_description=readme_contents,
