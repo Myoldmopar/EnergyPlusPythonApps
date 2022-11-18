@@ -17,6 +17,10 @@ jobs:
       with:
         python-version: 3.8
 
+    - name: Install Pip Dependencies
+      shell: bash
+      run: pip install wheel
+
     - name: Build the Wheel
       shell: bash
       run: rm -rf dist/ build/ && python3 setup.py bdist_wheel sdist
