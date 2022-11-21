@@ -16,9 +16,11 @@ setup(
     url='https://github.com/Myoldmopar/EnergyPlusPythonApps',
     license='UnlicensedForNow',
     install_requires=[
-        'ep-launch==3.5.3',
-        'eplus-rmd==0.2',
-        'ep-transition-tools==2.0.2',
+        'energyplus-launch==3.5.3',
+        'energyplus-ruleset-model==0.2',
+        'energyplus-transition-tools==2.0.3',
         'energyplus-pet==0.43',
+        'energyplus-idd-idf-utilities==0.86',
+        'energyplus-regressions==1.9.7',
     ]
 )
