@@ -18,7 +18,7 @@ setup(
     install_requires=[
         'energyplus-launch==3.5.3',
         'energyplus-ruleset-model==0.2',
-        'energyplus-transition-tools==2.0.3',
+        'energyplus-transition-tools==2.0.4',
         'energyplus-pet==0.43',
         'energyplus-idd-idf-utilities==0.86',
         'energyplus-regressions==1.9.7',
