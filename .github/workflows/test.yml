@@ -1,0 +1,21 @@
+name: DevelopmentTest
+
+on: [push]
+
+jobs:
+  release:
+    strategy:
+      matrix:
+        os: [ windows-latest, macos-11, macos-12, ubuntu-20.04, ubuntu-22.04 ]
+        py: [ 3.8, 3.9, 3.10, 3.11 ]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8  # v2
+    - name: Set up Python
+      uses: actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5  # v4.2.0
+      with:
+        python-version: ${{ matrix.py }}
+    - name: Install Pip Dependencies from Requirements
+      shell: bash
+      run: pip install -r requirements.txt
+      # the test here is really just to make sure the dependencies are compatible, not running any unit tests (for now)
