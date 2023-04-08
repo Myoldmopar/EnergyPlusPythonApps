@@ -5,6 +5,10 @@ on:
     tags:
       - '*'
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   release:
     runs-on: ubuntu-20.04
@@ -17,12 +21,14 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Install Pip Dependencies
-      shell: bash
+    - name: Install Dependencies for Building Wheels
       run: pip install wheel
 
+#    - name: Install Dependent Packages
+#      run: pip install .
+#      # note that this is not necessary for building the package, it just ensures compatability
+
     - name: Build the Wheel
-      shell: bash
       run: rm -rf dist/ build/ && python3 setup.py bdist_wheel sdist
 
     - name: Deploy on Test PyPi
