@@ -24,6 +24,3 @@ This project is currently linking to the following packages:
 | energyplus-idd-idf-utilities | A lightweight library for processing and querying idd and idf files                  | https://github.com/Myoldmopar/py-idd-idf                     |
 | energyplus-regressions       | A tool for comparing results from two EnergyPlus builds, for E+ developer usage      | https://github.com/NREL/EnergyPlusRegressionTool             |
 | energyplus-api-helpers       | A set of helper classes and demos for interacting with the EnergyPlus API            | https://github.com/Myoldmopar/EnergyPlusAPIDemos             |
-
-
-
