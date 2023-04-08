@@ -7,7 +7,7 @@ jobs:
     strategy:
       matrix:
         os: [ windows-latest, macos-11, macos-12, ubuntu-20.04, ubuntu-22.04 ]
-        py: [ 3.8, 3.9, 3.10, 3.11 ]
+        py: [ "3.8", "3.9", "3.10", "3.11" ]
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8  # v2
