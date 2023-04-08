@@ -24,9 +24,9 @@ jobs:
     - name: Install Dependencies for Building Wheels
       run: pip install wheel
 
-    - name: Install Dependent Packages
-      run: pip install .
-      # note that this is not necessary for building the package, it just ensures compatability
+#    - name: Install Dependent Packages
+#      run: pip install .
+#      # note that this is not necessary for building the package, it just ensures compatability
 
     - name: Build the Wheel
       run: rm -rf dist/ build/ && python3 setup.py bdist_wheel sdist
