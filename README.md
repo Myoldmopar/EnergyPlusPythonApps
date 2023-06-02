@@ -6,6 +6,7 @@ This really just pins the dependencies at specific versions and ensures compatab
 
 ## Releases
 
+[![DevelopmentTest](https://github.com/Myoldmopar/EnergyPlusPythonApps/actions/workflows/test.yml/badge.svg)](https://github.com/Myoldmopar/EnergyPlusPythonApps/actions/workflows/test.yml)
 [![PyPIRelease](https://github.com/Myoldmopar/EnergyPlusPythonApps/actions/workflows/release.yml/badge.svg)](https://github.com/Myoldmopar/EnergyPlusPythonApps/actions/workflows/release.yml)
 
 I think long term, this "project" itself will be tagged with versions in sync with EnergyPlus itself.
@@ -24,6 +25,12 @@ This project is currently linking to the following packages:
 | energyplus-idd-idf-utilities | A lightweight library for processing and querying idd and idf files                  | https://github.com/Myoldmopar/py-idd-idf                     |
 | energyplus-regressions       | A tool for comparing results from two EnergyPlus builds, for E+ developer usage      | https://github.com/NREL/EnergyPlusRegressionTool             |
 | energyplus-api-helpers       | A set of helper classes and demos for interacting with the EnergyPlus API            | https://github.com/Myoldmopar/EnergyPlusAPIHelper            |
+| energyplus-diff-analysis     | Tools for plotting and comparing csv data from two separate EnergyPlus runs          | https://github.com/mitchute/energyplus-diff-analysis         |
 
+## Usage
 
-
+Cover a few topics here:
+ - Installation
+ - Running the configuration script after install
+ - Accessing all the tools, including the dev tools
+ - Updating

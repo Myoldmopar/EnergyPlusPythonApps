@@ -1,8 +1,8 @@
-energyplus-launch==3.5.7
-energyplus-ruleset-model==0.4
-energyplus-transition-tools==2.0.6
-energyplus-pet==0.48
-energyplus-idd-idf-utilities==0.87
-energyplus-regressions==2.0.2
-energyplus-api-helpers==0.3
+energyplus-launch==3.6.9
+energyplus-ruleset-model==0.5
+energyplus-transition-tools==2.0.8
+energyplus-pet==0.49
+energyplus-idd-idf-utilities==0.88
+energyplus-regressions==2.0.3
+energyplus-api-helpers==0.4
 energyplus-diff-analysis==0.2
