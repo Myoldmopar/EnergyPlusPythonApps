@@ -17,9 +17,9 @@ setup(
     url='https://github.com/Myoldmopar/EnergyPlusPythonApps',
     license='ModifiedBSD',
     install_requires=[
-        'energyplus-launch==3.6.3',
+        'energyplus-launch==3.6.9',
         'energyplus-ruleset-model==0.5',
-        'energyplus-transition-tools==2.0.7',
+        'energyplus-transition-tools==2.0.8',
         'energyplus-pet==0.49',
         'energyplus-idd-idf-utilities==0.88',
         'energyplus-regressions==2.0.3',
