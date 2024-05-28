@@ -26,6 +26,7 @@ This project is currently linking to the following packages:
 | energyplus-regressions       | A tool for comparing results from two EnergyPlus builds, for E+ developer usage      | https://github.com/NREL/EnergyPlusRegressionTool             |
 | energyplus-api-helpers       | A set of helper classes and demos for interacting with the EnergyPlus API            | https://github.com/Myoldmopar/EnergyPlusAPIHelper            |
 | energyplus-diff-analysis     | Tools for plotting and comparing csv data from two separate EnergyPlus runs          | https://github.com/mitchute/energyplus-diff-analysis         |
+| energyplus-version           | Python-based version update classes and utilities                                    | https://github.com/mitchute/energyplus-version               |
 
 ## Usage
 

@@ -25,6 +25,7 @@ setup(
         'energyplus-regressions==2.0.3',
         'energyplus-api-helpers==0.4',
         'energyplus-diff-analysis==0.2',
+        'energyplus-version==1.0.0'
         # 'energyplus-expand-objects==blah',
         # 'energyplus-epjson-editor==blah',
     ],
