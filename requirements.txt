@@ -6,3 +6,4 @@ energyplus-idd-idf-utilities==0.88
 energyplus-regressions==2.0.3
 energyplus-api-helpers==0.4
 energyplus-diff-analysis==0.2
+energyplus-version==1.0.0
